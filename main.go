@@ -60,10 +60,6 @@ func render() error {
 		return nil
 	}
 
-	if err := s.paint(r); err != nil {
-		return err
-	}
-
 	time.Sleep(5 * time.Second)
 
 	return nil
